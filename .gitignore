@@ -1,0 +1,42 @@
+# Dependencias
+node_modules/
+
+# Archivos de construcción
+/frontend/dist
+/frontend/build
+
+# Archivos de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de IDEs y editores
+.idyea/
+.vscode/
+*.swp
+*.swo
+
+# Archivos específicos del frontend
+/frontend/.cache
+/frontend/coverage
+
+# Archivos específicos del backend
+/backend/dist
+/backend/build
+
+# Otros
+*.log
+*.pid
+*.seed
+*.pid.lock
